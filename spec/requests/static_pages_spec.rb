@@ -1,6 +1,6 @@
 require 'rails_helper'
-
 require 'spec_helper'
+
 describe "Static pages" do
 
   let(:base_title) { "Ruby on Rails Tutorial Sample App" }
@@ -12,7 +12,7 @@ describe "Static pages" do
       expect(page).to have_content('Sample App')
     end
 
-  
+
   end
 
   describe "Help page" do

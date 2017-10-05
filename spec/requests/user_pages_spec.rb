@@ -1,6 +1,4 @@
 require 'rails_helper'
-<<<<<<< HEAD
-
 require 'spec_helper'
 describe "signup page" do
 
@@ -27,7 +25,7 @@ describe "signup page" do
       end
     end
   end
-=======
+
 require 'spec_helper'
 
 describe "User pages" do
@@ -49,4 +47,3 @@ describe "User pages" do
     it { should have_title(full_title('Sign up')) }
   end
 end
->>>>>>> sign-up
