@@ -1,5 +1,6 @@
 class User < ApplicationRecord
 #  attr_accessor :password, :password_confirmation
+ has_many :microposts
   before_save { self.email = email.downcase }
    before_create :create_remember_token
     before_save { self.email = email.downcase }
