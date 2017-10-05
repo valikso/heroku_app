@@ -1,17 +1,22 @@
 require 'rails_helper'
 require 'spec_helper'
-
-# describe User do
+# 
+#  describe User do
 #
-#   before do
-#     @user = User.new(name: "Example User", email: "user@example.com",
-#                      password: "foobar", password_confirmation: "foobar")
-#   end
+# describe "edit" do
+#     let(:user) { FactoryGirl.create(:user) }
+#     before { visit edit_user_path(user) }
 #
-#   subject { @user }
+#     describe "page" do
+#       it { should have_content("Update your profile") }
+#       it { should have_title("Edit user") }
+#       it { should have_link('change', href: 'http://gravatar.com/emails') }
+#     end
 #
-#   describe "remember token" do
-#     before { @user.save }
-#     its(:remember_token) { should_not be_blank }
+#     describe "with invalid information" do
+#       before { click_button "Save changes" }
+#
+#       it { should have_content('error') }
+#     end
 #   end
 # end
